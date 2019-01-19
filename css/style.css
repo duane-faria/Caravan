@@ -1,6 +1,5 @@
 
 body{
-    height: 3000px;
     padding-top: 76px;
 }
 
@@ -11,4 +10,25 @@ body{
 .box-shadow{
     box-shadow: 0px 2px 4px 0 rgba(0,0,0,.05),
                 0px 4px 8px 0 rgba(0,0,0,.05);
+}
+
+.home-quote{
+    background: url("../img/bg-quote.jpg");
+    background-size: cover;
+}
+
+@media(min-width:767){
+
+    .home-quote .display-4{
+        font-size: 2.5rem;
+    }
+
+    body{
+        padding-top: 0px !important;
+    }
+
+    .fixed-top{
+        position: relative;
+    }
+
 }
